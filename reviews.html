@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YellowGap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "./pageTransition.css"> 
+
+       
+    
+</head>
+
+<body >
+    <div class="loader" >
+        <h1 class="text-center" data-aos="zoom-in">Reviews   
+        </h1>
+        <!-- <img src="./assets/images/YGLOGO.png" alt="" data-aos="flip-right" data-aos-delay="250"> -->
+    </div>
+    <a href="https://wa.me/918591113931?text=I%20would%20like%20to%20know%20more%20details%20about%20YellowGap%20Education%20Society" class="float" target="_blank" data-aos="fade-down" data-aos-delay="250">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    <!-- <audio src="./assets/music/Sonny-Fodera-feat-Jazzy-DOD-Somedays-(RawPraise.ng).mp3" autoplay loop></audio> -->
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top" x-data="{ open: false }">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html" >
+                <img src="./assets/images/YGLOGO.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" @click="open = !open" :aria-expanded="open ? 'true' : 'false'" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" :class="{ 'show': open }" id="navbarNav">
+                <ul class="navbar-nav ms-auto sm-auto mt-4" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html" @click="open = !open">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html" @click="open = !open">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses" @click="open = !open">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./classroom.html" @click="open = !open">Classroom</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./instructors.html" @click="open = !open">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reviews.html" @click="open = !open">Reviews</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html" @click="open = !open">Contact</a>
+                    </li>
+                    <li>
+                    <!-- <a href="#contact" @click="open = false" class="btn btn-brand ms-lg-3 ">Book your slots</a> -->
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+    
+    </section> 
+    <section id="quote" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold">At <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">YellowGap</span>, our students learn to code, solve real <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Problems</span>, and think like developers. Hear what they have to <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">say</span></h1>
+                        <div class="line"></div>
+                       
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold">Student <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">Testimonials</span></h1>
+                        <p>Because Student Review Matters</p>
+                        <div class="line"></div>
+                       
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style=" font-size: 50px;">Akash</h1>
+                    <p>Engineering Graduate mastering tech</p>
+                    <h1 >YellowGap made learning tech from scratch possible, <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">empowering</span> me to build websites and explore new opportunities!</h1>
+                    <!-- <div data-aos="fade-down" data-aos-delay="150" class="col-12 text-center">
+                        <a href="#" class="btn btn-brand" style="margin-right: 100px;">Student Reviews</a>
+                    </div> -->
+                </div>
+    
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/one.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/3dStudentNoBG.png" alt="" class="img-fluid">
+                </div>
+            
+
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style="font-size: 60px;">Sudha</h1>
+                    <p>Housewife to Full-Stack Developer</p>
+                    <h1>YellowGap gave me the technical skills to complement my sales experience, and <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">enhanced</span> me in opening doors in tech careers! </h1>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+               
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style=" font-size: 60px;">Prem</h1>
+                    <p>From Sales to Software</p>
+                    <h1>YellowGap empowered me to combine my finance <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">expertise</span> with tech, opening new opportunities in fintech development!</h1>
+                    <!-- <div data-aos="fade-down" data-aos-delay="150" class="col-12 text-center">
+                        <a href="#" class="btn btn-brand" style="margin-right: 100px;">Student Reviews</a>
+                    </div> -->
+                </div>
+    
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/one.png" alt="" class="img-fluid" style="height: 450px;width: 900px; margin-bottom: 170px; margin-left: 40px;">
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/3dStudentNoBG.png" alt="" class="img-fluid">
+                </div>
+            
+
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style="font-size: 60px;">Mukesh</h1>
+                    <p>Finance Professional to Full-Stack Pro</p>
+                    <h1>YellowGap filled my coding gaps, providing practical, hands-on experience that made me job-ready for <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">full-stack</span> roles skills to complement my sales experience, and enhanced me in opening doors in tech careers! </h1>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+               
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style=" font-size: 60px;">Jayesh</h1>
+                    <p>IT Graduate Enhancing Development Skills</p>
+                    <h1>YellowGap helped me shift from commerce to coding, enhancing my skills to <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">confidentally</span> adapt skills for future tech roles!</h1>
+                </div>
+    
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/one.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold">Why <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Students</span> Love YellowGap</h1>
+                        <div class="line"></div>
+                        <h2>At YellowGap, we believe in real-world results and real-world feedback. </h2>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="row justify-content-between align-items-center">
+               
+                <div class="col-lg-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style=" font-size: 50px;"><span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">Hands-on</span> Learning</h1>
+                    <h1>YellowGap doesn't just throw theory at you—they make sure you actually <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">understand</span> and can apply what you learn. </h1>
+                
+                </div>
+
+                <div class="col-lg-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style=" font-size: 50px;">Real-world <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Projects</span></h1>
+                    <h1 > I didn’t just learn HTML and CSS, I learned how to make a <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">website</span> that actually works in the real world!</h1>
+            
+                </div>
+                
+
+                <div class="col-lg-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <h1 style=" font-size: 60px; 
+"><span style="color: gold;  text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);
+">Mentorship</span> for Life</h1>
+                    <h1> It’s not just about coding—it's about <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">learning</span> how to think like a developer, and YellowGap's instructors made that possible!</h1>
+           
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- PURPOSE -->
+
+
+    <section id="quote" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div data-aos="zoom-in" data-aos-delay="150" class="col-12 text-center">
+                    <h1>"Join us, <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Where</span> 'Hello World' is just the beginning, and 'Why isn’t this <span style="color: gold; text-shadow: 1.5px 2px 1px rgba(160, 80, 0, 0.7);">Working</span>' is an acceptable response." </h1>
+                </div>
+    
+                <div class="col-12 text-center mt-4" data-aos="fade-up" data-aos-delay="150">
+                    <a href="#" class="btn btn-brand">Enroll Now</a> 
+                </div>
+    
+                <div class="col-12 text-center mt-4">
+                    <img src="./assets/images/groupstudents.png" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="250">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+
+ 
+
+    
+
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold"><span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Kickstart</span> Your Tech Journey!</h1>
+                        <div class="line"></div>
+                        <p> Ready to learn from the best (and have a few laughs along the way)? Join our next class and let one of our expert instructors help you level up your tech skills. Don’t wait—your coding journey starts here!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/landing.png" alt="" class="img-fluid" style="margin-bottom: 210px;">
+                </div>
+            
+
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1>
+                        Join YellowGap and see why our <span style="color: gold; text-shadow: 1px 2px 1px #212529;">students</span> thrive in tech. Sign up now and get ready for coding, <span style="color: blueviolet;  text-shadow: 1px 2px 1px #212529">coffee</span>, and plenty of laughs!</h1>
+                        <a href="#" class="btn btn-brand">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+        
+        <footer class="bg-dark" >
+            <div class="footer-top">
+                <div class="container" >
+                    <div class="row" >
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="#home"><img src="./assets/images/YGWHITE.png" alt="" width="280px"></a>
+                            <div class="line"></div>
+                            <p>Advance Your Career with YellowGap Education Society's Master Full Stack Development Program!</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="ri-youtube-fill"></i></a>
+                                <a href="#"><i class="ri-github-fill"></i></a>
+                                <a href="#"><i class="ri-instagram-fill"></i></a>
+                                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                                <br>
+                                <p style="margin-top: 20px;">>© YellowGap 2025. All Rights Reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 ">
+                            <h5 class="mb-0 text-white">COURSES</h5>
+                            <div class="line"></div>
+                            <ul>
+                                <li><a href="#courses">Comprehensive web development</a></li>
+                                <li><a href="#courses">Operational excellence</a></li>
+                                <li><a href="#courses">Progressive Web Applications</a></li>
+                                <li><a href="#courses">Advanced Technical skills</a></li>
+                                <li><a href="#courses">Leading-Edge Technologies</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h5 class="mb-0 text-white">ABOUT</h5>
+                            <div class="line"></div>
+
+                            
+                            <ul>
+                                <li><a href="#courses">Curriculum</a></li>
+                                <li><a href="#portfolio">Classroom</a></li>
+                                <li><a href="#reviews">Reviews</a></li>
+                                <li><a href="#team">Faculty</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h5 class="mb-0 text-white">CONTACT</h5>
+                            <div class="line"></div>
+                            <ul>
+                                <li><strong>Address:</strong> 408, SK Plaza Kalyan Shilphata Road Dombivali East Thane, Maharashtra - 421204</li>
+                                <li><strong>Phone no: </strong>8591113931</li>
+                                <li>www.YellowGap.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="module" src="./assets/js/email.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+
+    
+
+</body>
+
+</html>

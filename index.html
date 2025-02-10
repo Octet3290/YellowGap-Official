@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YellowGap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/pageTransition.css">
+    
+
+
+
+
+</head>
+
+<body>
+    
+    <div class="loader">
+        
+        <h1 class="text-center" data-aos="zoom-in">Home</h1>
+    </div>
+    <a href="https://wa.me/918591113931?text=I%20would%20like%20to%20know%20more%20details%20about%20YellowGap%20Education%20Society"
+        class="float" target="_blank" data-aos="fade-down" data-aos-delay="250">
+        <i class="fa fa-whatsapp my-float" ></i>
+    </a>
+    <!-- <audio src="./assets/music/Sonny-Fodera-feat-Jazzy-DOD-Somedays-(RawPraise.ng).mp3" autoplay loop></audio> -->
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top" x-data="{ open: false }">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html" >
+                <img src="./assets/images/YGLOGO.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" @click="open = !open" :aria-expanded="open ? 'true' : 'false'"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" :class="{ 'show': open }" id="navbarNav">
+                <ul class="navbar-nav ms-auto sm-auto mt-4">
+                    <li class="nav-item">
+                        <div class="navigation">
+                        <a class="nav-link" href="" onClick=" onRouteClick('home'); return false; " @click="open = !open">Home</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="navigation">
+                        <a class="nav-link" href="./about.html" @click="open = !open">About</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses" @click="open = !open">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./classroom.html" @click="open = !open">Classroom</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./instructors.html" @click="open = !open">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reviews.html" @click="open = !open">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html" @click="open = !open">Contact</a>
+                    </li>
+                    <li>
+                        <!-- <a href="#contact" @click="open = false" class="btn btn-brand ms-lg-3 ">Book your slots</a> -->
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- home -->
+    <section id="home" class=" py-5 mt-5">
+
+        <div class="container position-relative z-index-2">
+            <div class="row mt-0 justify-content-center text-center">
+    
+                <div class="col-12">
+                    <h1 class="display-1"  data-aos="zoom-in" data-aos-duration="3000">
+                        <span style="color: gold; text-shadow: 2px 2px 1px gray;">Master</span>  Full Stack Development and <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;" ">Secure</span>  Your First <span style="color: gold; text-shadow: 2px 2px 1px gray;">Tech</span>  Role!
+                    </h1>
+                    <h1 class="mb-5"  data-aos="fade-right" data-aos-duration="3000">
+                        Become a Full Stack <span style="color: gold; text-shadow: 2px 2px 1px gray;">Ninja</span>, Grab a <span style="color: gold; text-shadow: 2px 2px 1px gray;">Tech</span> Job, and Become the <br>Office <span style="color: gold; text-shadow: 2px 2px 1px gray;">Genius</span> You Were Meant to Be!
+                        
+                    </h1>
+    
+                    <div data-aos="fade-up">
+                        <a href="./about.html" class="btn btn-brand me-2">Get Started</a>
+                        <a href="./classroom.html" class="btn btn-light ms-2">Our Classroom</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="quote" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div data-aos="zoom-in" data-aos-delay="150" class="col-12 text-center">
+                    <h1>Elevate Your <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Career</span> with
+                        YellowGap Education Society <span style="color: gold; text-shadow: 2px 2px 1px gray;">Master</span> Full stack
+                        Development in Just 12 Months! </h1>
+                </div>
+
+                <div class="col-12 text-center mt-4 " data-aos="fade-up" data-aos-delay="150">
+                    <a href="./contact.html" class="btn btn-brand">Enroll Now</a>
+                </div>
+
+                <div class="col-12 text-center mt-4 image-container">
+                    <img src="./assets/images/groupstudents.png" alt="" class="img-fluid" data-aos="fade-down"
+                        data-aos-delay="250">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold">Shaping The <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Future</span></h1>
+                        <div class="line"></div>
+                        <p> Learn to code and build your own amazing digital experiences on web!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/3dStudentNoBG.png" alt="" class="img-fluid"
+                        >
+                </div>
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1>Unlock your web development <span style="color: gold; text-shadow: 2px 2px 1px gray;">Potential</span>. This curriculum provides a <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Structured</span> learning path, covering foundational to advanced concepts, and preparing you for a <span style="color: gold; text-shadow: 2px 2px 1px gray;">Successful</span> career in the digital world.</h1>
+                </div>
+           
+              
+            </div>
+
+        </div>
+    </section>
+
+    <section id="courses" class="section-padding border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold" style="letter-spacing: -1px;">Curriculum <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Overview</span></h1>
+                        <div class="line"></div>
+                        <p style="letter-spacing: -1px; line-height: 1;">Unlock your web development potential. </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-down"
+                data-aos-delay="150">
+
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="./assets/images/three.png" alt="Course 1 Image" class="d-block w-100">
+                            </div>
+                            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="150">
+                                <h1 class=" mt-4 mb-3 display-1" style="font-weight: 700;">Detailed Web Development
+                                    Curriculum Overview</h1>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="./assets/images/three.png" alt="Course 2 Image" class="d-block w-100">
+                            </div>
+                            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="150">
+                                <h1 class="mt-4 mb-3 display-1" style="font-weight: 700;">Operational Excellence
+                                    Methodologies Processes Grasping</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="./assets/images/three.png" alt="Course 3 Image" class="d-block w-100">
+                            </div>
+                            <div class="col-lg-7">
+                                <h1 class="mt-4 mb-3 display-1" style="font-weight: 700;">Mastering Emerging
+                                    Technologies for Tomorrow’s Challenges</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="./assets/images/three.png" alt="Course 4 Image" class="d-block w-100">
+                            </div>
+                            <div class="col-lg-7">
+                                <h1 class="mt-4 mb-3 display-1" style="font-weight: 700;">Building Innovative
+                                    Progressive Web Applications </h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="./assets/images/three.png" alt="Course 5 Image" class="d-block w-100">
+                            </div>
+                            <div class="col-lg-7">
+                                <h1 class="mt-4 mb-3 display-1" style="font-weight: 700;">Mastering Advanced Technical
+                                    Coding Skills</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="./assets/images/one.png" alt="Course 6 Image" class="d-block w-100">
+                            </div>
+                            <div class="col-lg-7">
+                                <h1 class="mt-4 mb-3 display-1" style="font-weight: 700;">Exploring Leading Edge Web
+                                    Application Technologies</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                
+                </button>
+            </div>
+            <div data-aos="fade-down" data-aos-delay="150" class="col-12 text-center">
+                <a href="./reviews.html" class="btn btn-brand" >Check Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div data-aos="zoom-in" data-aos-delay="150" class="col-12 text-center">
+                    <h1>We Teach You to <span style="color: gold; text-shadow: 2px 2px 1px gray;">Code</span>,So You Don’t Have
+                        to <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">'Ctrl+Z'</span> Your Career! </h1>
+                </div>
+
+                <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="150">
+                    <a href="#" class="btn btn-brand">Enroll Now</a>
+                </div>
+
+                <div class="col-12 text-center mt-4 image-container">
+                    <img src="./assets/images/new.png" alt="" class="img-fluid" data-aos="fade-down"
+                        data-aos-delay="250">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold">From Code to <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Compliments</span>: What Our <span style="color: gold; text-shadow: 2px 2px 1px gray;">students</span> Have to Say!</h1>
+                        <div class="line"></div>
+                        <p>Learn to code and build your own amazing digital experiences on web!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1 >Our students don’t just learn to code, they thrive!
+                        Check out their <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Experiences</span> and see how we’re helping them launch first successful tech careers,
+                        preparing you for a <span style="color: gold; text-shadow: 2px 2px 1px gray;">Successful</span> career in the digital world.
+                    </h1>
+                    <div data-aos="fade-down" data-aos-delay="150" class="col-12 text-center">
+                        <a href="./reviews.html" class="btn btn-brand">Student Reviews</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/one.png" alt="" class="img-fluid"
+                        >
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="quote" class="section-padding">
+        <div class="container text-center">
+            <div class="row">
+                <div data-aos="zoom-in" data-aos-delay="150">
+                    <h1 class="display-1" style="font-weight: 600;">Guaranteed <span style="color: gold; text-shadow: 2px 2px 1px gray;">3 LPA</span>
+                        Placement – Because Your Tech Career Shouldn’t Be on <span
+                            style="color: blueviolet;">Pause</span></h1>
+
+                            <div data-aos="fade-down" data-aos-delay="150" class="col-12 text-center">
+                                <a href="./reviews.html" class="btn btn-brand" >Check Courses</a>
+                            </div>
+
+                </div>
+
+
+            </div>
+            <img src="./assets/images/group.png" alt="Course 6 Image" data-aos="fade-down"
+                data-aos-delay="150" >
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-1 fw-semibold">Ready to <span style="color: gold; text-shadow: 2px 2px 1px gray;">Change</span> your <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">Life</span></h1>
+                        <div class="line"></div>
+                        <p> Learn to code and build your own amazing digital experiencefs on web!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./assets/images/landing.png" alt="" >
+                </div>
+
+
+                <div class="col-lg-7" data-aos="fade-down" data-aos-delay="150">
+                    <h1>
+                        Don’t just sit there wondering how to <span style="color: blueviolet; text-shadow: 2px 2px 1px gray;">start</span>, contact us now! Whether it's <span style="color: gold; text-shadow: 2px 2px 1px gray;">course</span> details, career
+                        tips, or a general chat, we’re just a message away.</h1>
+                        <div data-aos="fade-down" data-aos-delay="150" class="col-12 text-center">
+                            <a href="./reviews.html" class="btn btn-brand" >Contact Us</a>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        </div>
+    </section>
+
+
+
+    <footer class="bg-dark">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="#home"><img src="./assets/images/YGWHITE.png" alt="" width="280px"></a>
+                        <div class="line"></div>
+                        <p>Advance Your Career with YellowGap Education Society's Master Full Stack Development Program!
+                        </p>
+                        <div class="social-icons">
+                            <a href="#"><i class="ri-youtube-fill"></i></a>
+                            <a href="#"><i class="ri-github-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-fill"></i></a>
+                            <a href="#"><i class="ri-linkedin-fill"></i></a>
+                            <br>
+                            <p style="margin-top: 20px;">© YellowGap 2025. All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <h5 class="mb-0 text-white">COURSES</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a href="#courses">Comprehensive web development</a></li>
+                            <li><a href="#courses">Operational excellence</a></li>
+                            <li><a href="#courses">Progressive Web Applications</a></li>
+                            <li><a href="#courses">Advanced Technical skills</a></li>
+                            <li><a href="#courses">Leading-Edge Technologies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h5 class="mb-0 text-white">ABOUT</h5>
+                        <div class="line"></div>
+
+
+                        <ul>
+                            <li><a href="#courses">Curriculum</a></li>
+                            <li><a href="#portfolio">Classroom</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#team">Faculty</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0 text-white">CONTACT</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li><strong>Address:</strong> 408, SK Plaza Kalyan Shilphata Road Dombivali East Thane,
+                                Maharashtra - 421204</li>
+                            <li><strong>Phone no: </strong>8591113931</li>
+                            <li>www.YellowGap.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="module" src="./assets/js/email.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+
+   
+
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.fog.min.js"></script>
+<script>
+VANTA.FOG({
+  el: "#home",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  highlightColor: 0xffd902,
+  midtoneColor: 0xf2ed10,
+  lowlightColor: 0xff9000,
+  baseColor: 0xfff0eb,
+  speed: 4.10,
+  zoom: 2.10
+})
+</script> -->
+</script>
+
+    
+
+
+</body>
+
+</html>
