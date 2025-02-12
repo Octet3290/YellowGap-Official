@@ -535,6 +535,7 @@ footer .line {
 @media (max-width: 486px) {
     body, html {
         overflow-x: hidden; 
+        font-weight: 500;
     }
 
      h2{
@@ -646,6 +647,7 @@ footer .line {
 @media (min-width: 487px) and (max-width: 768px) {
     body, html {
         overflow-x: hidden; 
+        font-weight: 500;
     }
     #home{
         margin-top: 0;
@@ -726,6 +728,7 @@ footer .line {
 @media (min-width: 769px) and (max-width: 1024px) {
     body, html {
         overflow-x: hidden;
+        font-weight: 500;
     }
     #home .display-1 {
         font-size: 80px;
