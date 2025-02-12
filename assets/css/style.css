@@ -121,7 +121,7 @@ a:hover {
 }
 
 #quote .col-12 img{
-    height:fit-content; 
+    height: auto; 
     width: 70%;
 }
 
@@ -580,6 +580,10 @@ footer .line {
     #about .col-12 h1{
         font-size: 50px;
     }
+    #quote .col-12 img{
+        height: auto; 
+        width: 100%;
+    }
     #quote h1 {
         font-size: 50px;
     }
@@ -662,6 +666,10 @@ footer .line {
         padding-bottom: 0;
         
     }
+    #quote .col-12 img{
+        height: auto; 
+        width: 100%;
+    }
     .section-title h1 {
         font-size: 55px;
     }
@@ -728,6 +736,10 @@ footer .line {
     #about .col-12 h2{
         font-size: 40px;
     }
+    #quote .col-12 img{
+        height: auto; 
+        width: 100%;
+    }
     #quote h1 {
         font-size: 60px;
     }
@@ -745,7 +757,7 @@ footer .line {
         padding-top: 130px;
     }
     .col-lg-5 img {
-        height: 450px;
+        height: auto;
         width: 100%;
         margin-bottom: 0;
     }
