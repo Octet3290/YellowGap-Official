@@ -23,7 +23,7 @@
     
   }
   .loader h1{
-    font-size: 300px; 
+    font-size: 200px; 
     
   }
 
@@ -34,18 +34,18 @@
   }
 }
 
-/* Extra small devices (max-width: 486px) */
+
 @media (max-width: 486px) {
   .loader h1 {
-      font-size: 100px; /* Further reduce font size on very small screens */
+      font-size: 100px; 
   }
 
 }
 
-/* Medium screens (max-width: 1024px) */
+
 @media (max-width: 1024px) {
   .loader h1 {
-      font-size: 100px; /* Adjust font size for tablet screens */
+      font-size: 80px; 
   }
 
 
