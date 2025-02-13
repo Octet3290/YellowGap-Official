@@ -547,8 +547,7 @@ footer .line {
     }
     #about .col-lg-7 h2{
         font-size: 34px;
-        line-height: 1.3;
-        letter-spacing: -2.0px;
+     
         
     }
 
@@ -558,13 +557,11 @@ footer .line {
     
     #home .display-1 {
         font-size: 55px; 
-        line-height: 1.3;
-        letter-spacing: -2.3px;
+      
     }
     #home .mb-5 {
         font-size: 32px;
-        line-height: 1.3;
-        letter-spacing: -2.3px;
+    
     }
     .navbar-brand img{
         max-width: 200px;
@@ -574,13 +571,11 @@ footer .line {
     }
     #about .col-12 h2{
         font-size: 30px;
-        line-height: 1.3;
-        letter-spacing: -2.3px;
+        
     }
     #about .col-12 h1{
         font-size: 50px;
-        line-height: 1.3;
-        letter-spacing: -2.3px;
+     
     }
     #quote .col-12 img{
         height: auto; 
@@ -588,8 +583,7 @@ footer .line {
     }
     #quote h1 {
         font-size: 50px;
-        line-height: 1.3;
-        letter-spacing: -2.4px;
+   
     }
     .section-padding {
         padding-bottom: 70px;
