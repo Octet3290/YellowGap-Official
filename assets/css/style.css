@@ -1,11 +1,11 @@
 
 :root {
-    --c-dark: #292930;
-    --c-brand: #FFD700;
-    --c-brand-light: #FFC72C;
     --c-brand-rgb: 78, 87, 212;
     --c-body: #727272;
+    --c-brand: #FFD700;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --c-dark: #292930;
+    --c-brand-light: #FFC72C;
     --transition: all 0.5s ease;
     
 }
@@ -17,17 +17,6 @@ body {
     color: var(--c-body);
     overflow-x: hidden  ;
     background: #FDF9F4;
-    /* background: linear-gradient(315deg, rgb(229, 204, 13) 3%, rgb(249, 215, 44) 38%, rgb(241, 152, 35) 68%, rgb(255, 194, 25) 98%);
-    animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
-    background-attachment: fixed; */
-    /* background: rgb(32,36,0);
-    background: linear-gradient(80deg, rgba(32,36,0,0.557387920988708) 0%, rgba(255,249,0,0.6554271366749824) 29%, rgba(255,201,0,0.6694327389158788) 100%); */
-
-    /* background: rgb(32,36,0);
-    background: linear-gradient(60deg, rgba(32,36,0,0.557387920988708) 0%, rgba(255, 238, 0, 0.546) 29%, rgba(255, 234, 0, 0.792) 100%); */
-
-
     line-height: 1;
     letter-spacing: -1px;
 
@@ -535,13 +524,11 @@ footer .line {
 @media (max-width: 486px) {
     body, html {
         overflow-x: hidden; 
-        font-weight: 500;
+        
     }
 
      h2{
-    
         margin-bottom: 1.5rem;
-   
     }
     .tech-item {
         font-size: 24px;
@@ -560,14 +547,20 @@ footer .line {
     }
     #about .col-lg-7 h2{
         font-size: 34px;
+        line-height: 1.3;
+        letter-spacing: -2.0px;
         
     }
     
     #home .display-1 {
         font-size: 55px; 
+        line-height: 1.3;
+        letter-spacing: -2.3px;
     }
     #home .mb-5 {
         font-size: 32px;
+        line-height: 1.3;
+        letter-spacing: -2.3px;
     }
     .navbar-brand img{
         max-width: 200px;
@@ -577,9 +570,13 @@ footer .line {
     }
     #about .col-12 h2{
         font-size: 30px;
+        line-height: 1.3;
+        letter-spacing: -2.3px;
     }
     #about .col-12 h1{
         font-size: 50px;
+        line-height: 1.3;
+        letter-spacing: -2.3px;
     }
     #quote .col-12 img{
         height: auto; 
@@ -587,6 +584,8 @@ footer .line {
     }
     #quote h1 {
         font-size: 50px;
+        line-height: 1.3;
+        letter-spacing: -2.4px;
     }
     .section-padding {
         padding-bottom: 70px;
@@ -647,7 +646,7 @@ footer .line {
 @media (min-width: 487px) and (max-width: 768px) {
     body, html {
         overflow-x: hidden; 
-        font-weight: 500;
+     
     }
     #home{
         margin-top: 0;
@@ -728,7 +727,7 @@ footer .line {
 @media (min-width: 769px) and (max-width: 1024px) {
     body, html {
         overflow-x: hidden;
-        font-weight: 500;
+       
     }
     #home .display-1 {
         font-size: 80px;
@@ -756,7 +755,81 @@ footer .line {
         font-size: 24px;
     }
     .col-lg-7 h1 {
+        font-size: 58px;
+        padding-top: 130px;
+    }
+    .col-lg-5 img {
+        height: auto;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    #quote img {
+        height: auto;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    #about img {
+        height: auto;
+        width: 100%; 
+        margin-bottom: 0;
+    }
+    .carousel-inner h1{
+        font-size: 54px;
+    }
+    .carousel-inner img{
+        height: auto;
+        width: 100%;
+    }
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btn {
+        width: 100%;
+    }
+    .typeform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        
+         
+     }
+}
+
+@media (min-width: 1038px) and (max-width: 1398px) {
+    body, html {
+        overflow-x: hidden;
+        justify-content: center;
+    }
+    #home .display-1 {
+        font-size: 80px;
+    }
+    #home .mb-5 {
         font-size: 40px;
+    }
+    #about .col-12 h2{
+        font-size: 40px;
+    }
+    #quote .col-12 img{
+        height: auto; 
+        width: 100%;
+    }
+    #quote h1 {
+        font-size: 60px;
+    }
+    .section-padding {
+        padding-bottom: 90px;
+    }
+    .section-title h1 {
+        font-size: 60px;
+    }
+    .section-title p {
+        font-size: 24px;
+    }
+    .col-lg-7 h1 {
+        font-size: 58px;
         padding-top: 130px;
     }
     .col-lg-5 img {
