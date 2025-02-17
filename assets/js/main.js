@@ -35,3 +35,8 @@ loader.style.transform = "translateX(100%)";
 window.addEventListener("load", () => {
 startTransition();
 });
+
+
+
+
+
