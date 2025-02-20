@@ -33,7 +33,6 @@ h1, h2, h3,h4, h5, h6{
 
 
 
-
 .slider-wrapper {
     position: relative;
    
@@ -68,7 +67,7 @@ h1, h2, h3,h4, h5, h6{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes scrollTech {
+/* @keyframes scrollTech {
     0% {
         transform: translateX(100%);
     }
@@ -83,9 +82,7 @@ h1, h2, h3,h4, h5, h6{
     100% {
         transform: translateX(100%);
     }
-}
-
-
+} */
 
 
 #home h1 span {
@@ -104,10 +101,12 @@ h1, h2, h3,h4, h5, h6{
 
 .image-container img {
     transition: opacity 0.3s ease; 
+    
   }
   
   .image-container:hover img {
     opacity: 0; 
+    
   }
   
   .image-container:hover {
@@ -290,7 +289,7 @@ a:hover {
     top: 20px;
     display: inline-block;
     -webkit-animation: bounce 0.6s ease infinite alternate;
-    font-size: 80px;
+    
     color: #fff;
     
   }
@@ -705,7 +704,8 @@ footer .line {
    
     }
     .section-padding {
-        padding-bottom: 70px;
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
     .section-title h1 {
         font-size: 50px;
@@ -770,6 +770,7 @@ footer .line {
      }
      footer{
         text-align: left;
+       
         
      }
     
@@ -797,7 +798,7 @@ footer .line {
         font-size: 40px;
     }
     .section-padding {
-        padding-bottom: 0;
+        padding-bottom: 70px;
         
     }
     #quote .col-12 img{
@@ -963,6 +964,7 @@ footer .line {
         
          
      }
+     
 }
 
 @media (min-width: 1038px) and (max-width: 1398px) {
@@ -1056,13 +1058,12 @@ footer .line {
         
          
      }
+    
+     
 }
 
 
-@media (max-width: 1399px) {
-   
-   
-}
+
 
 
 
